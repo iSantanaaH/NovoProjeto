@@ -1,0 +1,39 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Mouse Corsair",
+      "valor": 120,
+      "valorPromo": 110,
+      "imagem": "mousecorsair.png"
+    },
+    {
+      "id": 2,
+      "nome": "Teclado Corsair",
+      "valor": 150,
+      "valorPromo": 140,
+      "imagem": "tecladocorsair.png"
+    },
+    {
+      "id": 3,
+      "nome": "Monitor Acer 27'",
+      "valor": 1300,
+      "valorPromo": 1290,
+      "imagem": "monitoracer.png"
+    },
+    {
+      "id": 4,
+      "nome": "Processador Ryzen 5 3600x",
+      "valor": 540,
+      "valorPromo": 530,
+      "imagem": "processadorryzen.png"
+    },
+    {
+      "id": 5,
+      "nome": "Geforce RTX 3060 TI",
+      "valor": 2500,
+      "valorPromo": 2400,
+      "imagem": "rtx3060ti.png"
+    }
+  ]
+}

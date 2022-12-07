@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Home</title>
+    <link rel="stylesheet" href="./home.component.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <ul class="bar-links">
+                <li><a [routerLink]="['/home']" target="_blank">Home</a></li>
+                <li><a [routerLink]="['/contato']" target="_blank">Contato</a></li>
+                <li><a [routerLink]="['/suporte']" target="_blank">Suporte</a></li>
+                <li><a [routerLink]="['/sobre']" target="_blank">Sobre</a></li>
+                <li><a [routerLink]="['/listaprodutos']" target="_blank">Lista de Produtos</a></li>
+                <li><a [routerLink]="['/produtos']" target="_blank">Produtos</a></li>
+            </ul>
+            <ul class="bar-search">
+                <form>
+                    <input type="search" placeholder="Search" aria-label="Search">
+                    <button type="submit">Search</button>
+                </form>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

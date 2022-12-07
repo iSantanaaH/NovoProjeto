@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <meta name="description" content="Lista de produtos" />
+    <link rel="stylesheet" href="./lista-produtos.component.css" />
+    <title>Lista de Produtos</title>
+  </head>
+  <body>
+
+    <section>
+      <div>
+        <h2>Produtos Cadastrados:</h2>
+
+        <table>
+
+            <tr>
+                <th>#id</th>
+                <th>Nome</th>
+                <th>Valor</th>
+                <th>Valor da promoção</th>
+                <th>Imagem</th>
+            </tr>
+
+          
+          <tr *ngFor="let produto of produtos">
+            <td>{{ produto.id }}</td>
+            <td>{{ produto.nome }}</td>
+            <td>{{ produto.valor }}</td>
+            <td>{{ produto.valorPromo }}</td>
+            <td>{{ produto.imagem }}</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+
+  </body>
+</html>
