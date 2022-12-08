@@ -1,58 +1,78 @@
 * {
-    padding: 0;
-    margin: 0;
-    background-color: #ccc;
+  padding: 0;
+  margin: 0;
 }
 
 .div-sobre {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  border: 2px solid #333;
+  border-radius: 5px 3px;
+  margin-bottom: 1.5rem;
 }
 
-.div-titulo h1 {
-    font-size: 2.0rem;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 1.5rem;
-    padding: 1.0rem;
+h1 {
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 1.5rem;
+  padding: 1rem;
 }
 
 .div-sobre p {
-    line-height: 1.5rem;
-    width: 100%;
-    padding-top: 3.0rem;
-    text-align: center;
+  line-height: 1.5rem;
+  padding-top: 3rem;
+  text-align: center;
 }
 
 .div-sobre span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .div-sobre img {
-    padding: 1.5rem;
-    width: 700px;
+  padding: 1.5rem;
+  max-width: 700px;
+  flex-wrap: wrap;
 }
 
 .framework-angular {
-    display: flex;
-    flex-direction: row-reverse;
-    border: 2px solid #333;
-    border-radius: 5px 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  border: 2px solid #333;
+  border-radius: 5px 3px;
 }
 
 .framework-angular img {
-    width: 700px;
-    padding: 1.5rem;
+  max-width: 700px;
+  padding: 1.5rem;
 }
 
 .framework-angular p {
-    padding-top: 4.0rem;
-    text-align: center;
-    margin: 1.5rem;
+  padding-top: 4rem;
+  text-align: center;
+  margin: 1.5rem;
 }
 
 .paragraf-angular a {
-    text-decoration: none;
-    font-size: 1.0rem;
-    font-family: Verdana;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: Verdana;
+  color: #0000cd;
+}
+
+.div-tecnologias {
+  text-align: center;
+  display: flex;
+  border: 2px solid #333;
+  border-radius: 5px 3px;
+  margin: 1.2rem;
+}
+
+.tec {
+  font-family: Arial, sans-serif;
+  padding: 2.5rem;
+}
+
+.div-tecnologias .img-tec {
+  width: 350px;
+  height: 100%;
 }
